@@ -37,3 +37,4 @@ else:
     print("Incorrect")
 
 print("You'r Score is",Score)
+print("You Got " + str((Score/4) * 100) + "%")
