@@ -1,5 +1,6 @@
 import random
 
+print("Welcome to game")
 top_of_range = input("Enter a number: ")
 
 if top_of_range.isdigit():
