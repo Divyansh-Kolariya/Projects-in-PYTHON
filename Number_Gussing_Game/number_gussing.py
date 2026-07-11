@@ -14,8 +14,10 @@ else:
 
 
 random_number = random.randrange(top_of_range)
+guesses = 0
 
 while True:
+    guesses += 1
     user_guess = input("Enter a Guess: ")
 
     if user_guess.isdigit():
@@ -30,3 +32,4 @@ while True:
     else:
         print("Wrong Guess")
     
+print("You got it in " + str(guesses) + " guess")
